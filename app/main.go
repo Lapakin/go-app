@@ -17,8 +17,8 @@ import (
 )
 
 const (
-	dbURL  = "postgres://admin:qwerty@172.20.0.2:5432/postgres"
-	migDir = "./migrations"
+	dbURL  = "postgres://admin:qwerty@mydatabase:5432/postgres?sslmode=disable"
+	migDir = "file:///usr/src/app/migrations"
 )
 
 func main() {
